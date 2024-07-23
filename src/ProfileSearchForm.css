@@ -1,0 +1,47 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background: #6EACDA;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.SearchBox{
+    position: relative;
+    /* font-family: Comic Sans MS; */ 
+    /* why is this not applying to the text inside the input and button? */
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.input {
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    background: none;
+    border: 3px solid #021526;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    outline: none;
+    transition: .5s;
+}
+
+input::placeholder {
+    font-family: Inter;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+  }
+
+.SearchBox:hover input{
+    width: 250px;
+    background: #03346E;
+    border-radius: 10px;
+
+}

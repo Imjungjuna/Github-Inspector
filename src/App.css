@@ -1,0 +1,21 @@
+#root {
+  text-align: center;
+  font-family: Inter;
+
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 37px;
+  color: #E2E2B6;
+}
+
+hr {
+  border: 0;
+  width: 100vw;
+  height: 3px;
+  background-color: #E2E2B6
+}
